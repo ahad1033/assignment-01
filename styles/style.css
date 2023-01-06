@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+
+}
+
+/* header */
+.heading {
+    text-align: right;
+    background-image: url(../images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.banner-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.heading-content {
+    margin-right: 230px;
+}
+
+/* section */
+
+.section-2 {
+    display: flex;
+    margin: 0;
+}
+
+.check-mark {
+    color: #16D887;
+}
+
+.image1 {
+    margin-left: 206px;
+    margin-top: 140px;
+}
+
+.section2-content {
+    margin-left: 87px;
+    margin-top: 370px;
+
+}
+
+.section2-heading {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section2-title {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.list {
+    list-style: none;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* third section */
+
+.section3-items {
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+    margin-left: 0 230px;
+
+}
+
+.section3-heading {
+    margin-left: 711px;
+    margin-top: 130px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.content-heading {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+.s3-sub-title {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+/* section4 */
+.section4 {
+    background-image: url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    margin-top: 130px;
+
+}
+
+.section4-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-left: 64px;
+    margin-top: 59px;
+}
+
+.btn-secondary {
+    margin-left: 64px;
+    background: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    margin-top: 24px;
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    background: #151414;
+    height: 577px;
+    width: 1600px;
+    margin-top: 130px;
+}
+
+.footer-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-sub-title {
+    color: white;
+    margin-top: 16px;
+}
+
+.icons {
+    margin-top: 32px;
+
+}
+
+.footer-content {
+    margin-left: 230px;
+
+}
+
+.subscribe {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.input {
+    width: 325px;
+    height: 64px;
+    margin-top: 30px;
+
+}
+
+.subscribe-button {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 36px;
+    margin-top: 16px;
+}
+.subscribe-content{
+    justify-content: space-around;
+}

@@ -37,9 +37,10 @@
 
 .heading-content {
     margin-right: 230px;
+    padding-top: 216px;
 }
 
-/* section */
+/* second section */
 
 .section-2 {
     display: flex;
@@ -58,6 +59,7 @@
 .section2-content {
     margin-left: 87px;
     margin-top: 370px;
+
 
 }
 
@@ -87,8 +89,8 @@
 .section3-items {
     display: flex;
     margin-top: 55px;
-    justify-content: space-around;
-    margin-left: 0 230px;
+    margin-left: 230px;
+    margin-right: 230px;
 
 }
 
@@ -119,13 +121,15 @@
 
 /* section4 */
 .section4 {
-    background-image: url(../images/watch.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     width: 1140px;
     height: 300px;
     background-repeat: no-repeat;
     margin-left: 230px;
     margin-top: 130px;
-
+    position: left;
+    text-align: left;
+    padding-top: 18px;
 }
 
 .section4-heading {
@@ -143,7 +147,27 @@
     height: 64px;
     border: 0;
     margin-top: 24px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px
+}
 
+/* bonus section*/
+.bonus-section {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 100px;
+    align-items: center;
+    gap: 200px;
+    
+}
+
+.bonus-heading {
+    font-size: 30px;
+}
+
+.bonus-sub-title {
+    font-size: 16px;
 }
 
 /* footer */
@@ -152,6 +176,8 @@
     background: #151414;
     height: 577px;
     width: 1600px;
+    padding-top: 130px;
+    gap: 330px;
     margin-top: 130px;
 }
 
@@ -184,9 +210,12 @@
 }
 
 .input {
-    width: 325px;
-    height: 64px;
     margin-top: 30px;
+    height: 64px;
+    width: 325px;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 10px;
 
 }
 
@@ -196,7 +225,9 @@
     font-size: 20px;
     padding: 20px 36px;
     margin-top: 16px;
+
 }
-.subscribe-content{
+
+.subscribe-content {
     justify-content: space-around;
 }
